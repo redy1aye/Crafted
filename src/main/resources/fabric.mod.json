@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "crafted",
+  "version": "1.0",
+
+  "name": "Crafted",
+  "description": "Improved crafting of vanilla items!",
+  "authors": [
+    "Redy1aye"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/crafted",
+    "sources": "https://github.com/Redy1aye/Crafted",
+    "issues": "https://github.com/Redy1aye/Crafted/issues"
+  },
+
+  "license": "MIT",
+  "icon": "craftedicon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "dev.redy1aye.crafted.Redy1ayeMod"
+    ]
+  },
+  "mixins": [
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.6",
+    "fabric": "0.37.1",
+    "minecraft": "1.17.x",
+    "java": ">=16"
+  },
+  "suggests": {
+    "another-mod": "https://www.curseforge.com/minecraft/mc-mods/copper-equipment-fabric"
+  }
+}
